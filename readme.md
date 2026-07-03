@@ -1,4 +1,7 @@
 # SF-QC: Explore the Selection Bias of Large Language Models in Zero-Shot Out-of-Distribution Intent Detection
+![architecture](https://github.com/jncsnlp/SF-QC/blob/main/framework.png)
+
+This repository contains the official PyTorch implementation code for SF-QC: Explore the Selection Bias of Large Language Models in Zero-Shot Out-of-Distribution Intent Detection: <a href="https://ieeexplore.ieee.org/document/11523681">SF-QC</a>.
 
 ## Installation
 
@@ -53,7 +56,7 @@ python scripts/run.py \
   --id_ratio [ID_RATIO] \
   --llm [MODEL] \
   --method [METHOD]
-# [TASK] can be: banking, clinc
+# [TASK] can be: banking, clinic
 # [ID_RATIO] can be: 0.25, 0.5, 0.75
 # [MODEL] can be: qwen, deepseek, llama
 # [METHOD] can be: SF-QC, CoT
@@ -73,9 +76,9 @@ python scripts/evaluate.py \
     --type [TYPE] \
     --show_class_accuracy \
     --output-json [OUTPUT_PATH]
-# RESULT_PATH: your reaults path
+# RESULT_PATH: your results path
 # TYPE can be: banking25, banking50, bangking75, clinc25, clinc50, clinc75
-# OUTPUT_PATH: the path you want to save the evaluation reault
+# OUTPUT_PATH: the path you want to save the evaluation result
 ```
 
 ## Acknowledgement
