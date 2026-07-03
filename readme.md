@@ -5,7 +5,7 @@
 First, clone the repository locally:
 
 ```
-git clone https://github.com/jncsnlp/SFQC.git
+git clone https://github.com/jncsnlp/SF-QC.git
 cd SFQC
 ```
 
